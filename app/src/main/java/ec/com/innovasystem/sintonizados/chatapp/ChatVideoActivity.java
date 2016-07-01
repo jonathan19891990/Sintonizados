@@ -35,6 +35,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import ec.com.innovasystem.sintonizados.Bo.ShirSessionManager;
 import ec.com.innovasystem.sintonizados.R;
@@ -265,7 +267,16 @@ public class ChatVideoActivity extends YouTubeBaseActivity implements YouTubePla
                 else
                 {
                     Toast.makeText(ChatVideoActivity.this,"Este video online no se encuentra disponible en este momento",Toast.LENGTH_SHORT).show();
-                    finish();
+                    Timer t = new Timer();
+                    t.schedule(new TimerTask() {
+
+                        @Override
+                        public void run() {
+
+                            finish()    ;
+                            // If you want to call Activity then call from here for 5 seconds it automatically call and your image disappear....
+                        }
+                    }, 5000);
                 }
 
             }
