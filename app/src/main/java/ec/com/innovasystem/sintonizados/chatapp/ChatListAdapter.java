@@ -79,6 +79,7 @@ public class ChatListAdapter extends FirebaseListAdapter<Chat> {
             }
             else
             {
+
                 try {
                     Picasso.with(activity)
 
