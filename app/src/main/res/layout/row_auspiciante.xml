@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:background="@color/transparente"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/transparente"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/linearLayout2">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgAuspiciante"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ly_content_papa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="10dp">
+                    <TextView
+                        android:id="@+id/nombre"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="NATURE GARDEN"
+                        android:textColor="@color/NEGRO"
+                        android:textSize="15sp"
+                        android:maxLines="3" />
+                    <TextView
+                        android:id="@+id/texto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cliente que pasa 4 años filees a la radio|"
+                        android:textSize="12sp"
+                        android:maxLines="3" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_layouts_papa_biografia"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BLANCO"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="ec.com.innovasystem.sintonizados.fragment.Comentarios">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="ESCRÍBENOS"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/textNombre"
+            android:padding="22dp"
+            android:drawableLeft="@mipmap/personita_ploma"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:hint="Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/textCorreo"
+            android:padding="22dp"
+            android:drawableLeft="@mipmap/correo_plomo"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:hint="Correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/textTelefono"
+            android:padding="22dp"
+            android:drawableLeft="@mipmap/telefono_plomo"
+            android:drawablePadding="10dp"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:hint="Teléfono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/textMensaje"
+            android:padding="22dp"
+            android:drawableLeft="@mipmap/lapiz"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:hint="Mensaje"
+            android:maxLength="150"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnEnviar"
+            android:background="@color/azulado"
+            android:text="ENVIAR"
+            android:textColor="@color/BLANCO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/back_comentarios"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+

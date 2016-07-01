@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@mipmap/back_sorteo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ec.com.innovasystem.sintonizados.actividades.EscogerSorteo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title=" "
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center"
+            android:background="@color/BLANCO"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <ImageView
+                android:src="@drawable/logo_cabecera"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:id="@+id/showevents"
+                android:background="@mipmap/online"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                />
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:spinnerMode="dialog"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+        <EditText
+            android:id="@+id/textNombre"
+            android:padding="20dp"
+            android:drawableLeft="@mipmap/personita"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:hint="Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/textCorreo"
+            android:hint="Correo"
+            android:drawableLeft="@mipmap/correo2"
+            android:padding="20dp"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/textTelefono"
+            android:hint="Telefono"
+            android:drawableLeft="@mipmap/fono"
+            android:padding="20dp"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/textCiudad"
+            android:hint="Ciudad"
+            android:drawableLeft="@mipmap/ubicacion"
+            android:padding="20dp"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/textDireccion"
+            android:hint="Dirección"
+            android:drawableLeft="@mipmap/casa"
+            android:padding="20dp"
+            android:drawablePadding="10dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azulado"
+            android:textColor="@color/BLANCO"
+            android:text="PARTICIPAR"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnCrear"
+
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

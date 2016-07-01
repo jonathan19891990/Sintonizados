@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:background="@color/BLANCO"
+    android:layout_height="match_parent"
+    tools:context="ec.com.innovasystem.sintonizados.fragment.SorteoSlider">
+    <ViewFlipper
+        android:layout_weight="0.4"
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:autoStart="true"
+        android:layout_height="0dp">
+    </ViewFlipper>
+    <LinearLayout
+
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:id="@+id/btnParticipar"
+            android:text="PARTICIPAR"
+            android:background="@drawable/botonlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textParticipando"
+            android:padding="10dp"
+            android:textSize="12sp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:gravity="center"
+            android:text="Ganar en Sintonizados es muy fácil, solo debes presionar en participar y llenar el formulario para el sorteo que desees, todas las semanas tenemos premios."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+        <ImageView
+
+            android:src="@mipmap/dos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

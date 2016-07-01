@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/padre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BLANCO"
+    android:weightSum="1"
+    tools:context="ec.com.innovasystem.sintonizados.fragment.Sintonizados">
+    <ViewFlipper
+        android:layout_weight="0.35"
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:autoStart="true"
+        android:layout_height="0dp">
+    </ViewFlipper>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.65"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Con esta nueva etapaque comienza para el popular periodista. Haza se adentrará con más profundidad en los temas  de actualidad que más preocupan a los espectadores, como la nueva forma migratoria e intentará buscar la parte más humana"     android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnKathu"
+                android:textSize="12sp"
+                android:textColor="@color/negro"
+                android:text="KATHIUSKA PERALTA"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/botonlogin"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnJorge"
+                android:textSize="12sp"
+                android:textColor="@color/negro"
+                android:gravity="center"
+                android:background="@drawable/botonlogin"
+                android:text="JORGE VILLAO"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btnTwitter"
+                android:background="@mipmap/twitter_icono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/btnFacebook"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@mipmap/faceb_icono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/btnInstagram"
+                android:background="@mipmap/web_icono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

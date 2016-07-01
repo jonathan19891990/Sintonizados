@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_eventos"
+            android:icon="@drawable/eventos"
+            android:title="EVENTOS" />
+        <item
+            android:id="@+id/nav_sintonizados"
+            android:icon="@drawable/sintonizados"
+            android:title="SINTONIZADOS" />
+        <item
+            android:id="@+id/nav_galeria"
+            android:icon="@drawable/galeria"
+            android:title="GALERÍA" />
+        <item
+            android:id="@+id/nav_sorteo"
+            android:icon="@drawable/sorteos"
+            android:title="SORTEOS" />
+        <item
+            android:id="@+id/nav_auspiciante"
+            android:icon="@drawable/clientes"
+            android:title="CLIENTES" />
+        <item
+            android:id="@+id/nav_cabinas"
+            android:icon="@drawable/chat"
+            android:title="CABINA CHAT" />
+        <item
+            android:id="@+id/nav_contacto"
+            android:icon="@drawable/contacto"
+            android:title="CONTACTOS" />
+        <item
+            android:id="@+id/nav_cerrasesion"
+            android:icon="@drawable/cerrarsesion"
+            android:title="CERRAR SESIÓN" />
+</menu>

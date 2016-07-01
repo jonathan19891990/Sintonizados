@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1015384654374",
+    "firebase_url": "https://project-6216169142926604048.firebaseio.com",
+    "project_id": "project-6216169142926604048",
+    "storage_bucket": "project-6216169142926604048.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015384654374:android:3c37e2cd9a0befd6",
+        "android_client_info": {
+          "package_name": "ec.com.innovasystem.sintonizados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015384654374-t7sqchjj2qp42tsrug01s78qbbhokjps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ec.com.innovasystem.sintonizados",
+            "certificate_hash": "2BF68B980E658429967C41D2D58C916508AF1957"
+          }
+        },
+        {
+          "client_id": "1015384654374-0g9gt7i9t4ftb7h5qf879eiujjg22r3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAki8b_eIgReNS6VdgKZhHAMc-UwHBHgHA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015384654374-0g9gt7i9t4ftb7h5qf879eiujjg22r3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
